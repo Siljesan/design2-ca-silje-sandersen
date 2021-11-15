@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design2 CA</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img class="logo" src="img/Logo_interiorDesign.svg" alt="logo">
+        </div>
+    </header>
+    <main>
+        <h1>Welcome to the style guide for Becky's Interior Design</h1>
+        <section class="section-logo">
+            <h2>Logo</h2>
+            <p>The logo for Becky’s Interior Design is a simple black and white logo and shall stay that way. The text color can be changed to white if it is ever placed over a background where there is not enough contrast with the black text. See images below for examples.</p>
+            <div class="logo-examples">
+                <img class="logo" src="img/Logo_interiorDesign.svg" alt="Logo black">
+                <img class="logo" src="img/logo-white.svg" alt="Logo white">
+            </div>
+            <p>The size of the logo shall never be larger than 200px width. It should always be placed in the left top corner in the header, and in the center of the footer. Margins around the logo should always be 10px.</p>
+            <div class="logo-border">
+                <p class="absolute">10px</p>
+                <div>
+                    <img class="logo border" src="img/Logo_interiorDesign.svg" alt="Logo"> 
+                </div>
+            </div>
+        </section>
+        <section class="section-typography">
+            <h2>Typography</h2>
+            <p>The Font used on Becky’s Interior Design website is always Mukta Light 300 for all text, and Poppins Medium 500 will be used for all headings. The text color should always be black, but it can change if more contrast is needed.</p>
+            <p>Here are examples.</p>
+            <div class="typography-example">
+                <div>
+                    <h1 class="heading-example">THIS IS A HEADING</h1>
+                    <h2 class="heading-example">This is a heading</h2>
+                    <h3 class="heading-example">This is a heading</h3>
+                </div>
+                <div>
+                    <p class="text-example">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia repellendus odit dignissimos aut sequi earum numquam vel! A et qui dolore nobis? Doloremque expedita ducimus repudiandae a, aliquam magnam error quas quasi voluptatibus iste voluptate laborum, nesciunt in rerum. Labore at perferendis assumenda architecto incidunt magnam. Nisi deserunt corrupti dolore.</p>
+                </div>
+            </div>
+        </section>
+        <section class="section-layout">
+            <h2>Layout</h2>
+            <p>The website should always have 3 column grids, where the middle column covers 80% of the page and contains all content. The columns on the side should be the same size and work as margins to the webpage.</p>
+            <div class="layout-example">
+                <div class="col1"></div>
+                <div class="col2">80% <br>Main content</div>
+                <div class="col3"></div>
+            </div>
+        </section>
+        <section class="section-interactive">
+            <h2>Interactive Features</h2>
+            <p>There should be as little interactive features as possible to make the website appear minimalistic and modern. However it should contain image slider and buttons. The image sliders can only have a maximum of 5 images at a time and always have a button to toggle between the images.</p>
+            <p>The buttons should have two states. A normal state and a hover state. Normal state should look like this:</p>
+            <button class="btn">Some text</button>
+            <p>Hover state should look like this:</p>
+            <button class="btn-hover">Some text</button>
+        </section>
+        <section class="section-color">
+            <h2>Colors</h2>
+            <p>There is one primary and one secondary color that should be used on the website. The colors are a monochrome yellow color, wich gives you a happy and comfortable feeling. These are the colors:</p>
+            <div class="color-example">
+                <div class="color primary">PRIMARY <br>Hex: #FFF4D3</div>
+                <div class="color secondary">SECONDARY <br>Hex: #FFE187</div>
+            </div>
+            <p>The primary color has the variable name <span class="bold">primary-color</span> and will be used as a background color. This is the color you will see covering the website.</p>
+            <p>The secondary color has the variable name <span class="bold">secondary-color</span> and will be used on all elements. Such as buttons, icons and links.</p>
+        </section>
+        <section class="section-form">
+            <h2>Form elements</h2>
+            <p>All the forms should have the same styling. They should never be wider than 400px. Also they should have that minimalistic look so there should be no background color on the text elements. Only the buttons and interactive elements should have the secondary color as background color. See below for an example of a form.</p>
+            <div class="form-example">
+                <form action="">
+                    <label for="name">Name</label>
+                    <input type="text" id="name">
+                    <label for="email">Email</label>
+                    <input type="text" id="email">
+                    <label for="message">Message</label>
+                    <textarea name="text" id="message" cols="30" rows="10"></textarea>
+                    <button class="btn">Submit</button>
+                </form>
+            </div>
+        </section>
+        <section class="section-img">
+            <h2>Images and Media</h2>
+            <p>Images will have no borders. Border radius will never be more than 10px. Hero-banners should always fill the page, and all other images should have the size of 350px x 350px. However, the size should fit the content if the image is placed inside a card or other containers. Here is an example of how an image should look.</p>
+            <img class="img-example" src="img/interior.jpg" alt="interior">
+            <p>All icons should have the secondary color, and the font size should never be larger than 25px. Here is the icons that can be used:</p>
+            <div class="icons">
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-facebook-f"></i>
+                <i class="fas fa-search"></i>
+                <i class="fas fa-home"></i>
+                <i class="fas fa-shopping-cart"></i>
+            </div>
+        </section>
+        <section class="section-other">
+            <h2>Other content areas</h2>
+            <p>You should be able to style contents if you follow this style guide. However, other content areas like cards can have different styling. A card should always include an image, heading and text, button is optional. It should never be wider than 250px, and height should be set to fit-content. However, the height should be the same if there are several cards placed next to eachother. Notice that this makes the image smaller than what is required of images outside of cards, but it is still squared. Here is an example of what a card should look like.</p>
+            <div class="card">
+                <div class="card-img"><img src="img/interior.jpg" alt="interior"></div>
+                <div class="card-text">
+                    <h3>Card heading</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, eligendi.</p>
+                </div>
+                <div class="card-btn">
+                    <button class="btn">Click me</button>
+                </div>
+            </div>
+            <p>All call to action buttons should follow the rules for 'buttons' in interactive features.</p>
+            <p>The footer design should be the same on all pages. It should include the logo placed in the center, the address and social media links placed on the left side, and navigation on the right side.</p>
+        </section>
+        <section class="section-do">
+            <h2>Dos and Donts</h2>
+            <p>Keep a read thread in the sizing of elements by using the sizes explained on each element. Do not make text smaller or larger than the default sizes.</p>
+            <p>Flex is key. A long text should not fill the width of the page. Keep it at 40% width with an element (preferably an image) next to it. Always use flex if there is room for more elements next to each other.</p>
+        </section>
+        <section class="section-branding">
+            <h2>Branding</h2>
+            <p>This is a professional website, however it is important that it is stylish and modern. We sell designs and our website should reflect the products we offer.</p>
+            <p>The target audience is men and women from the age 25+, interested in giving their home a new look or just need some inspiration.</p>
+        </section>
+    </main>
+    <footer></footer>
+</body>
+</html>

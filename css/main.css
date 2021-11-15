@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@300&family=Poppins:wght@500&display=swap");
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+}
+header {
+  width: 100%;
+}
+main {
+  width: 90%;
+  margin: 0 auto;
+}
+p {
+  max-width: 70%;
+}
+.logo {
+  margin: 10px;
+  width: 200px;
+}
+.logo-border {
+  border: solid black 2px;
+  position: relative;
+  width: fit-content;
+}
+.absolute {
+  position: absolute;
+  bottom: -18px;
+  left: 10px;
+}
+.border {
+  border: solid black 2px;
+}
+.typography-example {
+  display: flex;
+}
+.heading-example {
+  font-family: "Poppins", sans-serif;
+  width: 300px;
+}
+.text-example {
+  font-family: "Mukta", sans-serif;
+}
+
+.layout-example {
+  width: 100%;
+  height: 200px;
+  border: solid black 2px;
+  display: flex;
+}
+.col1 {
+  width: 10%;
+}
+.col3 {
+  width: 10%;
+}
+.col2 {
+  width: 80%;
+  text-align: center;
+  border-left: solid black 1px;
+  border-right: solid black 1px;
+}
+
+.btn {
+  background-color: #ffe187;
+  border-radius: 10px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  width: 150px;
+  border: solid 2px #f7cd4f;
+  margin-top: 10px;
+}
+.btn-hover {
+  background-color: #ffe18769;
+  border-radius: 10px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  width: 150px;
+  border: solid 2px #ffe187;
+  margin-top: 10px;
+}
+
+.color-example {
+  display: flex;
+}
+.color {
+  border: solid black 2px;
+  border-radius: 10px;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 20px;
+}
+.primary {
+  background-color: #fff4d3;
+}
+.secondary {
+  background-color: #ffe187;
+}
+.bold {
+  font-weight: bolder;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  font-family: "Poppins", sans-serif;
+}
+label {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.img-example {
+  width: 350px;
+  height: 350px;
+  border-radius: 10px;
+  margin: 10px;
+}
+.icons {
+  display: flex;
+  color: #ffe187;
+  font-size: 25px;
+}
+.fab,
+.fas {
+  margin-right: 20px;
+}
+
+.card {
+  width: 250px;
+  border: solid black 1px;
+  border-radius: 10px;
+  padding: 10px;
+}
+.card-img img {
+  width: 250px;
+  height: 250px;
+  border-radius: 10px;
+}
+.card-text p,
+.card-text .card-btn {
+  max-width: 100%;
+}
+.card-btn {
+  text-align: center;
+}
